@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 350px;
+            width: 300px;
+            background: peachpuff;
+            border: solid;
+            margin: 6px;
+            text-align: center;
+            box-sizing: border-box;
+
+            /* display: block ,inline ,inline-block */
+            display: inline-block;
+        }
+        
+        #box1{
+            background-color:  palevioletred ;
+        }
+        #box2{
+            background:aquamarine;
+        }
+        #box3{
+            background: lightsalmon ;
+        }
+
+        .inner-box{
+            width: 100%;
+            height: 60%;
+        }
+        .details{
+            text-align: center;
+            height: 40%;
+
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .contact{
+            height: 300px;
+            width: 100% ;
+            display: inline-block;
+        }
+        ul{
+            display: inline;
+            list-style-type: none;
+            
+
+        }
+        .contact-img{
+            height:100% ;
+            width: 45%;
+            border: 2px solid white;
+        }
+        .contact-img img{
+            height: 100%;
+            width: 100%;
+        }
+        .contact-details{
+            width: 50%;
+            height: 100%;
+            padding: 20px 40px;
+           
+        }
+        .navbar{
+            padding: 15px 30px;
+            height: 80px;
+            width: 100%;
+            font-size: 20px;
+            color: white;
+            background-color: lightseagreen;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navList{
+            display: flex;
+            width: 20%;
+            align-items: center;
+            justify-content: 30px;
+        }
+
+        .navList ul{
+            text-decoration: none;
+        }
+
+        .details{
+            text-align: center;
+            height: 35%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .details h3, h4, h5{
+            font-size: 16px;
+            
+            
+        }
+        .contact-details button{
+            border-radius: 20px;
+            padding: 5px;
+            font-size: 16px;
+            width: 100px;
+        }
+
+        footer{
+            height: 80px;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+            background-color: black;
+            color:white;
+        }
+
+        footer h2{
+            font-size: 22px;
+        }  
+
+        footer h3{
+            margin-top: 5px;
+        }
+        
+
+    </style>
+</head>
+<div class="navbar">
+    <div class="logo">
+        logo
+    </div>
+    <div class="navList">
+        <h4>Home</h4>
+        <h4>veiw shop</h4>
+        <h4>details</h4>
+    </div>
+</div>
+
+<body>
+    <div class="box" id="box1">
+        <div class="inner-box">
+            <img src="https://images.unsplash.com/photo-1633933358116-a27b902fad35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aWNlJTIwY3JlYW0lMjBjb25lfGVufDB8fDB8fHww&w=1000&q=80"
+                alt="">
+        </div>
+        <div class="details">
+            <h3>title: ice cream cone</h3>
+            <h4>price: 370</h4>
+            <h5> description</h5>
+        </div>
+
+    </div>
+    <div class="box" id="box2">
+        <div class="inner-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD71Bcyd5t5Xv9wXiRmTekMyyUlLkLttuLtyKE2hAE_i8kKRCRtXLhm5uQcNmFciJAUxo&usqp=CAU
+                alt="">
+        </div>
+        <div class="details">
+            <h3>title: blueberry ice-cream</h3>
+            <h4>price: 365</h4>
+            <h5> description</h5>
+        </div>
+    </div>
+    <div class="box" id="box3">
+        <div class="inner-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhm6H6VVtc9sjsMpwvdORbDnPWeL-Qt4YLWT-ovia2ZLR89nOVmOCAlVtbDGgtIjLFJiM&usqp=CAU"
+                alt="">
+        </div>
+        <div class="details">
+            <h3>title:  chocolate</h3>
+            <h4>price: 400</h4>
+            <h5> description</h5>
+        </div>
+    </div>
+    <div class="box" id="box4">
+        <div class="inner-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-T2cSR-7dJXAjGWptt8wJMmOJ1D2p1cesAQ0LOBPdRiAyzGE2BDsVeh9VadZgE01YqYI&usqp=CAU"
+                alt="">
+        </div>
+        <div class="details">
+            <h3>title: three cones</h3>
+            <h4>price: 350</h4>
+            <h5> description</h5>
+        </div>
+    </div>
+    <div class="contact">
+        <div class=" contact-img">
+            <img src="https://images.unsplash.com/photo-1564801629778-eabf6ed7d440?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aWNlJTIwY3JlYW0lMjBzaG9wfGVufDB8fDB8fHww&w=1000&q=80" alt="">
+        </div>
+        <div class="contact-details">
+            <form action="">
+            <label for="name">Name: </label>
+            <input type="text" placeholder="Enter your name"> <br><br>
+            <label for="email">Email: </label>
+            <input type="email" placeholder="Enter your email"><br><br>
+            <label for="mobile">Mobile: </label>
+            <input type="mobile" placeholder="Enter your mobile no."><br><br>
+            <label for="">Enter your message here: </label> <br>
+            <textarea name="" id="" cols="40" rows="7"></textarea> <br>
+            <button>Submit</button>
+        </form>
+
+        </div>
+    </div>
+    <footer>
+        <h2>Contact Us : icecreamcompany@.com</h2>
+        <h3>
+            Copyright &copy; All rights reserved by ABC Company
+        </h3>
+    </footer>
+
+</body>
+
+</html>
