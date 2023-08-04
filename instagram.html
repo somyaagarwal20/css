@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram</title>
+
+</head>
+<style>
+    .container {
+        height: 150vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box {
+        height: 63%;
+        width: 29%;
+
+
+    }
+
+    #innerbox1 {
+        height: 70%;
+        border: .75px solid rgb(201, 187, 187);
+        margin-bottom: 15px;
+    }
+
+    #innerbox2 {
+        height: 10%;
+        border: .75px solid rgb(205, 197, 197);
+
+    }
+
+    #innerbox3 {
+        height: 18%;
+
+    }
+
+    .subbox {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+    }
+
+    .logo {
+        height: 19%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .input {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+
+    }
+
+    .or {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .or h1 {
+        border-top: 2px solid grey;
+        width: 50%;
+        position: relative;
+        bottom: 14px;
+    }
+
+    .span {
+        margin-left: 5%;
+        margin-right: 5%;
+        color: grey;
+        font-size: 13px;
+    }
+
+    button {
+        background: rgb(48, 109, 207);
+        border-radius: 5px;
+    }
+
+    .link {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+
+    }
+
+    .button {
+        color: white;
+        height: 30px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    #textbox1 {
+        height: 30px;
+        margin-top: 7px;
+
+    }
+
+    #textbox2 {
+        height: 30px;
+    }
+
+    .facebook {
+        color: #385185;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 20px;
+
+    }
+
+    .link img {
+        height: 30%;
+        width: 8%;
+        margin-bottom: 25px;
+        margin-right: 4px;
+    }
+
+    .password {
+        color: #385185;
+        position: relative;
+        padding: 1px;
+        margin: 12px 0px 0px
+    }
+
+    #innerbox2 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+    #innerbox3 {}
+
+    .account {
+        color: #0095f6;
+        margin-left: 2px;
+
+    }
+
+    .get-app {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: 8.5px;
+
+    }
+
+    .innerbox3 img {
+        height: 47%;
+        width: 40%;
+        margin-top: 9px;
+        margin-left: 20px;
+
+
+    }
+
+    #img2 {
+        height: 42%;
+        width: 35%;
+
+
+
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://mks.com.pk/blog/wp-content/webp-express/webp-images/uploads/2023/07/Instagram-1.png.webp"
+                height="100%" width="100%" alt="">
+        </div>
+        <div class="box">
+            <div class="innerbox" id="innerbox1">
+                <div class="subbox">
+                    <div class="logo">
+                        <img src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png" height="100%"
+                            width="50% " alt="">
+                    </div>
+                    <div class="input">
+                        <input id="textbox1" type="text" placeholder="username">
+                        <input id="textbox2" type="text" placeholder="password">
+                        <button class="button">login</button>
+                        <div class="or">
+                            <h1></h1><span class="span">OR</span>
+                            <h1></h1>
+                        </div>
+                    </div>
+                    <div class="link">
+                        <img src="https://e7.pngegg.com/pngimages/106/850/png-clipart-facebook-icon-logo-blue-square-symbol-social-facebook-blue-rectangle.png"
+                            alt="">
+                        <link rel="stylesheet" href="https://www.facebook.com/login.php/">
+
+                        <p>
+                            <span class="facebook">
+                                <a href="https://en-gb.facebook.com/login/device-based/regular/login/">login with
+                                    facebook</a>
+                            </span>
+
+                            <br> <br>
+
+                            <span class="password">
+                                <a href="https://i.instagram.com/accounts/password/reset/?hl=en-gb">forgot password?</a>
+                            </span>
+                        </p>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="innerbox" id="innerbox2">
+                <p>don't have an accout?<span class="account">Sign up</span>
+
+                </p>
+            </div>
+            <div class="innerbox3" id="innerbox3">
+                <span class="get-app">Get the app</span>
+                <img src="https://www.pngmart.com/files/10/Get-It-On-Google-Play-Transparent-Background.png" ng alt="">
+
+                <img id="img2"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Get_it_from_Microsoft_Badge.svg/2560px-Get_it_from_Microsoft_Badge.svg.png"
+                    alt="">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
