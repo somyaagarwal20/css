@@ -125,7 +125,7 @@
 
     .link img {
         height: 30%;
-        width: 8%;
+        width: 8%;pwd
         margin-bottom: 25px;
         margin-right: 4px;
     }
@@ -144,7 +144,7 @@
 
     }
 
-    #innerbox3 {}
+
 
     .account {
         color: #0095f6;
@@ -177,15 +177,28 @@
 
 
     }
+    @media (max-width:540px){
+         
+        #box1{
+            display: none;
+        }
+
+        #box2-1{
+
+            width: 100%;
+        }
+
+    }
+    
 </style>
 
 <body>
     <div class="container">
-        <div class="box">
+        <div class="box" id="box1">
             <img src="https://mks.com.pk/blog/wp-content/webp-express/webp-images/uploads/2023/07/Instagram-1.png.webp"
                 height="100%" width="100%" alt="">
         </div>
-        <div class="box">
+        <div class="box" id="box2-1">
             <div class="innerbox" id="innerbox1">
                 <div class="subbox">
                     <div class="logo">
